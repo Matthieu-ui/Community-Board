@@ -98,7 +98,7 @@ import Post from "./Post";
 
     
                 {posts.map((post, index) => (
-                    <div className="flex flex-wrap border border-cyan-900 ">
+                    <div className="flex flex-wrap">
                     <Post
                         key={index}
                         title={post.title}

@@ -5,12 +5,12 @@ const Socials = () => {
     return (
         <div className="flex flex-wrap">
         <div className="w-full">
-            <div className="text-left pr-5 pt-5">
-            <h2 className="text-cyan-900 hover:text-cyan-600 text-sm font-medium">
+            <div className="text-left pr-5 p-2">
+            <h2 className="text-cyan-900 text-sm font-medium text-center">
                 Connect with us!
             </h2>
     
-            <p className="text-sm">
+           <div className="text-center space-x-3">
                 <a
                 className=" hover:text-gray-500"
                 href="#"><Icon
@@ -39,7 +39,7 @@ const Socials = () => {
                     icon="mdi:twitter-circle"   
                     width="27"/>
                 </a>
-            </p>
+            </div>
             </div>
         </div>
         </div>

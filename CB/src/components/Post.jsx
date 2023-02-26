@@ -3,10 +3,10 @@ import { Icon } from '@iconify/react';
 
 const Post = (props) => {
     return (
-        <div className="flex flex-wrap relative">
+        <div className="flex flex-wrap relative border-5 border-cyan-900 hover:scale-105 cursor-pointer transition-transform">
             <div className="w-full">
                 <div className="rounded-lg shadow-lg p-4 bg-zinc-200 h-full" >
-                    <h2 className="text-cyan-900 hover:text-cyan-600  py-2 text-lg font-medium mb-2">{props.title}</h2>
+                    <h2 className="text-cyan-900  py-2 text-lg font-medium mb-2">{props.title}</h2>
 
                     <p className="text-sm pb-4">{props.content}</p>
             
