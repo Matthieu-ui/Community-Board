@@ -1,5 +1,7 @@
 # Web Development Project 1 - *Open Source Community Board*
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aa16f759-4cda-4825-bfe5-8a21e2869b3c/deploy-status)](https://app.netlify.com/sites/js-community-board/deploys)
+
 Submitted by: **Matthieu Felker**
 
 This web app: **Features a community board for people who are seeking to contribute to open source projects. If you are a project owner, you can post your project and if you are a contributor, you can find projects to contribute to.**
