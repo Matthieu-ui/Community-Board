@@ -38,47 +38,48 @@ import Post from "./Post";
             date: "2023-02-25",
             status: "Active"
         },
+
         {
-            title: "JSChat",
-            content: "A JavaScript-based chat application that enables real-time messaging and collaboration between users.",
-            author: "Mike Zoe",
-            date: "2023-02-25",
-            status: "Inactive"
-        },
-        {
-            title: "JSGame",
-            content: "A JavaScript game engine that provides a powerful and flexible framework for building browser-based games. ",
-            author: "Jane Koe",
+            title: "Zest",
+            content: "A lightweight JavaScript library for creating animations and transitions on web pages.",
+            author: "Brian doe",
             date: "2023-02-25",
             status: "Active"
         },
         {
-            title: "JSAuth",
-            content: " lightweight and secure authentication library for JavaScript-based web applications. Customized authentication!!",
+            title: "Quizzer",
+            content: "An open source quiz platform that allows users to create and take quizzes on any topic.",
             author: "Mary Roe",
             date: "2023-02-25",
             status: "Active"
         },
         {
-            title: "JSChat",
-            content: "A JavaScript-based chat application that enables real-time messaging and collaboration between users.",
-            author: "Mike Zoe",
-            date: "2023-02-25",
-            status: "Inactive"
-        },
-        {
-            title: "JSGame",
-            content: "A JavaScript game engine that provides a powerful and flexible framework for building browser-based games. ",
+            title: "QuickDocs",
+            content: " An easy-to-use documentation generator for JavaScript projects, that generates beautiful, responsive documentation websites.",
             author: "Jane Koe",
             date: "2023-02-25",
             status: "Active"
         },
         {
-            title: "JSAuth",
-            content: " lightweight and secure authentication library for JavaScript-based web applications. Customized authentication!!",
+            title: "PureForms",
+            content: "A library of customizable and easy-to-use form components for building beautiful and functional forms on the web.",
             author: "Mary Roe",
             date: "2023-02-25",
             status: "Active"
+        },
+        {
+            title: "Dash",
+            content: "A JavaScript-based dashboard framework for building real-time data visualizations and interactive dashboards.",
+            author: "Mike Zoe",
+            date: "2023-02-25",
+            status: "Inactive"
+        },
+        {
+            title: "LocalChat",
+            content: "A real-time chat application built using JavaScript, Node.js, and WebSockets, that allows users to chat with others in their local area.",
+            author: "Mike Zoe",
+            date: "2023-02-25",
+            status: "Inactive"
         },
         {
             title: "JSChat",
@@ -86,7 +87,7 @@ import Post from "./Post";
             author: "Mike Zoe",
             date: "2023-02-25",
             status: "Inactive"
-        }
+        },
 
     ];
 
