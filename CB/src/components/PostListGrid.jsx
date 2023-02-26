@@ -101,7 +101,7 @@ import Post from "./Post";
                 {/* map() method loops through an array of posts and render a Post component for each item in the array. Post is the current item being processed and index is the index of the current item in the array */}
 
                 {posts.map((post, index) => (
-                    <div className="flex flex-wrap">
+                    <div className="flex flex-wrap" key={index}>
                     <Post
                         key={index}
                         title={post.title}
