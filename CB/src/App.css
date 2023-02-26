@@ -1,0 +1,25 @@
+html{
+  color: #333;
+  background-color: #e0e0e0;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 4em 0 4em;
+
+}
+
+@media screen and (max-width: 768px) {
+  #root {
+    padding: 0 2em 0 2em;
+  }
+}
+  
+@media screen and (max-width: 480px) {
+  #root {
+    padding: 0 0 0 0;
+  }
+}
+
+/* Path: CB\src\components\Header.css */
+
