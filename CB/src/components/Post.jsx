@@ -14,6 +14,8 @@ const Post = (props) => {
                         <a className=" hover:text-gray-500" href="#" ><Icon className="inline-block align-baseline" icon="mdi:github" width="30" /></a>
                         <a className=" hover:text-gray-500" href="#" ><Icon className="inline-block align-baseline" icon="ri:eye-2-line" width="30" /></a>
 
+                        {/* This section renders the author name, date, and status of each post using props */}
+
                     <div className="text-right">
                             <span className="text-sm font-bold font-serif px-2">{props.author}</span>
                             <span className="text-xs">{props.date}</span>

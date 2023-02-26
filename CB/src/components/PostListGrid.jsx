@@ -2,6 +2,8 @@ import React from "react";
 import Post from "./Post";
 
 
+// post objects are passed as props to the PostListGrid component and rendered as a grid of cards
+
     const posts = [
         {
             title: "GifMe",
@@ -93,10 +95,11 @@ import Post from "./Post";
 
     const PostList = () => {
     return (
-     
+    
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4 pb-4">
 
-    
+                {/* map() method loops through an array of posts and render a Post component for each item in the array. Post is the current item being processed and index is the index of the current item in the array */}
+
                 {posts.map((post, index) => (
                     <div className="flex flex-wrap">
                     <Post
