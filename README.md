@@ -1,5 +1,8 @@
 # Web Development Project 1 - *Open Source Community Board*
 
+<!-- link to netlify -->
+[![Netlify link](https://img.shields.io/badge/Netlify-Link-blue)](https://js-community-board.netlify.app/)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/aa16f759-4cda-4825-bfe5-8a21e2869b3c/deploy-status)](https://app.netlify.com/sites/js-community-board/deploys)
 
 Submitted by: **Matthieu Felker**
