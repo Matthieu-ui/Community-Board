@@ -26,14 +26,14 @@ import Post from "./Post";
         },
         {
             title: "JSGame",
-            content: "A JavaScript game engine that provides a powerful and flexible framework for building browser-based games. ",
+            content: "A JavaScript game engine that provides a powerful and flexible framework for building browser-based games. Customizable and easy-to-use game engine for building games on the web.",
             author: "Jane Koe",
             date: "2023-02-25",
             status: "Active"
         },
         {
             title: "JSAuth",
-            content: " lightweight and secure authentication library for JavaScript-based web applications. Customized authentication!!",
+            content: " lightweight and secure authentication library for JavaScript-based web applications. Customized authentication and authorization for your web applications. Lightweight and secure.",
             author: "Mary Roe",
             date: "2023-02-25",
             status: "Active"
@@ -41,14 +41,14 @@ import Post from "./Post";
 
         {
             title: "Zest",
-            content: "A lightweight JavaScript library for creating animations and transitions on web pages.",
+            content: "A lightweight JavaScript library for creating animations and transitions on web pages. Uses the GSAP library for a simple interface for creating and customizing animations.",
             author: "Brian doe",
             date: "2023-02-25",
             status: "Active"
         },
         {
             title: "Quizzer",
-            content: "An open source quiz platform that allows users to create and take quizzes on any topic.",
+            content: "An open source quiz platform that allows users to create and take quizzes on any topic. This platform is built using JavaScript, Node.js, and MongoDB.",
             author: "Mary Roe",
             date: "2023-02-25",
             status: "Active"
@@ -83,7 +83,7 @@ import Post from "./Post";
         },
         {
             title: "JSChat",
-            content: "A JavaScript-based chat application that enables real-time messaging and collaboration between users.",
+            content: "A JavaScript-based chat application that enables real-time messaging and collaboration between users. Uses Node.js and WebSockets for real-time communication.",
             author: "Mike Zoe",
             date: "2023-02-25",
             status: "Inactive"
@@ -98,7 +98,7 @@ import Post from "./Post";
 
     
                 {posts.map((post, index) => (
-                    <div className="border border-cyan-900 h-full">
+                    <div className="flex flex-wrap border border-cyan-900 ">
                     <Post
                         key={index}
                         title={post.title}

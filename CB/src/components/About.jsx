@@ -6,7 +6,7 @@ import Socials from "./Socials";
 const About = () => {
     return (
         <div>
-        <header class="py-10 mt-4 drop-shadow-md rounded-md bg-slate-200 grid grid-cols-2">
+        <header class="py-10 mt-4 drop-shadow-md rounded-md  grid grid-cols-2">
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 class="text-3xl font-bold drop-shadow-lg text-gray-900">
       <Icon className="inline-block align-baseline" icon="fluent-mdl2:open-source" width="40" />
