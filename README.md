@@ -31,10 +31,10 @@ List of additional features:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='CB\src\assets\gifsample.gif' title='Video Walkthrough' width='100%' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with Geforce Experience.
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -42,7 +42,7 @@ GIF created with ...
 
 ## Notes
 
-I encountered a challenge when passing props to the post card component. I had to map through an array of post objects and pass the props to the post card component which I had not done before. I also had to figure out how to install and use TailwindCSS to style the components.
+I encountered a challenge when passing props to the post card component. I had to map through an array of post objects and pass the props to the post card component which was a little tricky. I also had to figure out how to install and use TailwindCSS to style the components.
 
 ## License
 
