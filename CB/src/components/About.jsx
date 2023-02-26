@@ -1,5 +1,6 @@
 import { Icon } from "@iconify/react";
 import React from "react";
+import Socials from "./Socials";
 
 // an about section for the website telling the user what the website is about
 const About = () => {
@@ -27,6 +28,8 @@ const About = () => {
    
 
             </p>
+
+            <Socials />
             </div>
        
         </header>
