@@ -1,5 +1,5 @@
 {
-  "name": "cb",
+  "name": "os-cd-r",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -21,5 +21,17 @@
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.7",
     "vite": "^4.1.0"
-  }
+  },
+  "description": "<!-- link to app -->\r [![Netlify link](https://img.shields.io/badge/Netlify-Link-blue)](https://js-community-board.netlify.app/)",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matthieu-ui/Community-Board.git"
+  },
+  "author": "Matthieu Felker",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Matthieu-ui/Community-Board/issues"
+  },
+  "homepage": "https://github.com/Matthieu-ui/Community-Board#readme"
 }
